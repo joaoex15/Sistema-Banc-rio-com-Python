@@ -1,5 +1,6 @@
 
 from operações import *
+from bancodedados import*
 
 print (""""
 ░█████╗░░█████╗░███╗░░██╗████████╗░█████╗░  ██████╗░░█████╗░███╗░░██╗░█████╗░░█████╗░██████╗░██╗░█████╗░
@@ -18,7 +19,9 @@ while(1):
     print("1-Deposito")
     print("2-Saque")
     print("3-Extrato")
-    print("4-Encerra Sessão")
+    print("4-Adcionar conta")
+
+    print("5-Encerra Sessão")
     x=int(input("Digite o número correspondete a uma dessas operações:"))
     if x==1:
         conta_Usur=deposito(conta_Usur,historico)
@@ -31,6 +34,8 @@ while(1):
     elif x==3:
         extrato(historico)
     elif x==4:
+        Add_Client()
+    elif x==5:
         print("Até a proxima!")
         break
     else:
