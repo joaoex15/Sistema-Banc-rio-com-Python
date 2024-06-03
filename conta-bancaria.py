@@ -1,4 +1,4 @@
-
+ 
 from operações import *
 from bancodedados import*
 from operações_criação import*

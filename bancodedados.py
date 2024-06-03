@@ -1,6 +1,5 @@
 usuarios=0
 contas=0
-lista_contas=[]
 banco_de_dados=[]
 
 def verificar(usuariocpf, bancodedados):
